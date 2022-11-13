@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "wefabric/acronis-php": "0.*"
+        "wefabric/acronis-php": "0.1.0"
     },
     "extra": {
         "laravel": {
