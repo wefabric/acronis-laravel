@@ -1,0 +1,27 @@
+{
+    "name": "wefabric/acronis-laravel",
+    "description": "Acronis API implementation for Laravel",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wefabric\\AcronisLaravel\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "leoflapper",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "wefabric/acronis-php": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wefabric\\AcronisLaravel\\Providers\\AcronisLaravelServiceProvider"
+            ]
+        }
+    }
+}
